@@ -1,11 +1,11 @@
-// 1. 환경 변수(.env) 파일 불러오기
+// 1. 초기 설정
 require("dotenv").config();
 
-// 2. 필요한 라이브러리 가져오기
+const cityImageMapping = require("./03-config/cityImageMapping");
+
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
-const cityImageMapping = require("./config/cityImageMapping");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -13,10 +13,13 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-// 3. Amadeus Access Token 저장 변수
+// 2. Amadeus Access Token 저장
 let amadeusAccessToken = null;
 
-// 4. Access Token 발급 함수
+// 3. 메모리에 호텔 데이터 저장
+let cachedHotelData = null;
+
+// 4. Amadeus Access Token 발급 함수
 const getAccessToken = async () => {
   try {
     const response = await axios.post(
@@ -26,11 +29,7 @@ const getAccessToken = async () => {
         client_id: process.env.AMADEUS_API_KEY,
         client_secret: process.env.AMADEUS_API_SECRET,
       }),
-      {
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-      }
+      { headers: { "Content-Type": "application/x-www-form-urlencoded" } }
     );
     amadeusAccessToken = response.data.access_token;
     console.log(
@@ -42,15 +41,12 @@ const getAccessToken = async () => {
   }
 };
 
-// 5. 추천 도시 리스트 (.env에서 불러오기)
-const recommendedCityCodes = process.env.RECOMMENDED_CITY_CODES.split(",");
-
-// 6. 숙소 데이터 API (이달의 추천 숙소)
-app.get("/api/accommodations", async (req, res) => {
+// 5. 호텔 데이터 가져오기 함수
+const fetchHotelData = async () => {
   try {
+    const recommendedCityCodes = process.env.RECOMMENDED_CITY_CODES.split(",");
     const results = await Promise.all(
       recommendedCityCodes.map(async (cityCode) => {
-        // (1) 도시별 호텔 리스트 가져오기
         const response = await axios.get(
           `${process.env.ACCOMMODATION_API_BASE_URL}?cityCode=${cityCode}`,
           {
@@ -61,91 +57,62 @@ app.get("/api/accommodations", async (req, res) => {
         );
 
         const hotels = response.data.data || [];
-        const limitedHotels = hotels.slice(0, 3); // 도시당 최대 3개 호텔만
-
-        // (2) 각각의 hotelId로 상세 이미지 가져오기
-        const hotelDetails = await Promise.all(
-          limitedHotels.map(async (hotel) => {
-            try {
-              const detailResponse = await axios.get(
-                `https://test.api.amadeus.com/v1/reference-data/locations/hotels/by-hotels?hotelIds=${hotel.hotelId}`,
-                {
-                  headers: {
-                    Authorization: `Bearer ${amadeusAccessToken}`,
-                  },
-                }
-              );
-
-              const hotelData = detailResponse.data.data[0];
-
-              // ✅ (3) 이미지 URL 추출 및 검증 (없으면 기본 호텔 이미지 대체)
-              const imageUrl = hotelData?.media?.[0]?.uri;
-
-              // 이미지 URL 검증: 실제 이미지 URL인지 확인
-              const isValidImageUrl =
-                imageUrl &&
-                (imageUrl.startsWith("http://") ||
-                  imageUrl.startsWith("https://"));
-
-              // 도시 이미지를 매핑에서 가져오기 (랜덤하게 선택)
-              const cityImages = cityImageMapping[cityCode] || [];
-              const fallbackImage =
-                cityImages.length > 0
-                  ? cityImages[Math.floor(Math.random() * cityImages.length)]
-                  : "https://source.unsplash.com/featured/?hotel,room";
-
-              return {
-                hotelId: hotel.hotelId,
-                hotelName: hotel.name,
-                latitude: hotel.geoCode?.latitude,
-                longitude: hotel.geoCode?.longitude,
-                imageUrl: isValidImageUrl ? imageUrl : fallbackImage, // 검증된 이미지 URL 또는 대체 이미지
-              };
-            } catch (error) {
-              console.error(
-                `❌ 호텔 상세정보 가져오기 실패 (hotelId: ${hotel.hotelId}):`,
-                error.message
-              );
-
-              // 도시 이미지를 매핑에서 가져오기 (랜덤하게 선택)
-              const cityImages = cityImageMapping[cityCode] || [];
-              const errorFallbackImage =
-                cityImages.length > 0
-                  ? cityImages[Math.floor(Math.random() * cityImages.length)]
-                  : "https://source.unsplash.com/featured/?hotel,room";
-
-              return {
-                hotelId: hotel.hotelId,
-                hotelName: hotel.name,
-                latitude: hotel.geoCode?.latitude,
-                longitude: hotel.geoCode?.longitude,
-                imageUrl: errorFallbackImage, // 에러 시 도시별 대체 이미지 사용
-              };
-            }
-          })
-        );
 
         return {
-          cityCode: cityCode,
-          hotels: hotelDetails,
+          cityCode,
+          hotels: hotels.map((hotel) => {
+            // 도시별 이미지 배열에서 랜덤하게 선택
+            const cityImages = cityImageMapping[cityCode] || [];
+            const randomImageUrl =
+              cityImages.length > 0
+                ? cityImages[Math.floor(Math.random() * cityImages.length)]
+                : "https://source.unsplash.com/featured/?hotel";
+
+            return {
+              hotelId: hotel.hotelId,
+              hotelName: hotel.name,
+              latitude: hotel.geoCode?.latitude,
+              longitude: hotel.geoCode?.longitude,
+              imageUrl: randomImageUrl,
+            };
+          }),
         };
       })
     );
-
-    res.json(results);
+    cachedHotelData = results;
+    console.log("✅ 호텔 데이터 초기화 완료");
   } catch (error) {
-    console.error("❌ 숙소 API 호출 실패:", error.message);
-    res.status(500).json({ error: "API 호출 실패" });
+    console.error("❌ 호텔 데이터 가져오기 실패:", error.message);
   }
+};
+
+// 6. 추천 숙소 API
+app.get("/api/accommodations", async (req, res) => {
+  if (!cachedHotelData) {
+    return res.status(500).json({ error: "호텔 데이터가 없습니다." });
+  }
+  res.json(cachedHotelData);
 });
 
-// 7. 기본 서버 상태 확인 API
+// 6-1. 해외 숙소 전용 API (새 엔드포인트)
+app.get("/api/foreign-accommodations", async (req, res) => {
+  if (!cachedHotelData) {
+    return res.status(500).json({ error: "호텔 데이터가 없습니다." });
+  }
+
+  // 지금은 모든 데이터가 해외 숙소이므로 그대로 반환
+  // (나중에 국내숙소와 구분 필요시 필터링 로직 추가)
+  res.json(cachedHotelData);
+});
+
+// 7. 서버 상태 확인 API
 app.get("/", (req, res) => {
-  res.json({ message: "서버가 정상적으로 실행 중입니다." });
+  res.json({ message: "서버 정상 작동 중" });
 });
 
-// 8. 서버 실행 (AccessToken 먼저 발급받고 시작)
+// 8. 서버 실행
 app.listen(PORT, async () => {
   await getAccessToken();
+  await fetchHotelData(); // 서버 시작할 때 한번만 호출
   console.log(`🚀 서버가 http://localhost:${PORT} 에서 실행 중`);
 });
