@@ -1,4 +1,6 @@
 const axios = require("axios");
+const fs = require("fs");
+const path = require("path");
 require("dotenv").config();
 
 let cachedActivityData = [];
@@ -50,7 +52,15 @@ const fetchActivityData = async () => {
       bookingLink: true
     }));
 
-    console.log(`✅ 액티비티 ${cachedActivityData.length}건 캐싱 완료`);
+    // JSON 파일에 데이터 저장
+    const jsonFilePath = path.join(__dirname, "..", "04-json", "tickets.json");
+    const jsonData = {
+      tickets: cachedActivityData
+    };
+
+    fs.writeFileSync(jsonFilePath, JSON.stringify(jsonData, null, 2), "utf8");
+    console.log(`✅ 액티비티 ${cachedActivityData.length}건 JSON 파일 저장 완료`);
+
     return cachedActivityData;
   } catch (error) {
     console.error("❌ 액티비티 데이터 가져오기 실패:", error.message);
@@ -58,7 +68,17 @@ const fetchActivityData = async () => {
   }
 };
 
-const getCachedActivityData = () => cachedActivityData;
+const getCachedActivityData = () => {
+  // JSON 파일에서 데이터 읽기
+  try {
+    const jsonFilePath = path.join(__dirname, "..", "04-json", "tickets.json");
+    const jsonData = JSON.parse(fs.readFileSync(jsonFilePath, "utf8"));
+    return jsonData.tickets;
+  } catch (error) {
+    console.error("❌ JSON 파일 읽기 실패:", error.message);
+    return cachedActivityData;
+  }
+};
 
 module.exports = {
   fetchActivityData,

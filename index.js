@@ -28,8 +28,18 @@ app.get("/", (req, res) => {
   res.json({ message: "서버 정상 작동 중" });
 });
 
+// 서버 시작 전 한 번만 데이터 초기화
+let isInitialized = false;
+
 // ✅ 서버 실행 + 활동 데이터 캐시 초기화
 app.listen(PORT, async () => {
-  await fetchActivityData();  // 활동 데이터 초기화
+  if (!isInitialized) {
+    try {
+      await fetchActivityData();  // 활동 데이터 초기화
+      isInitialized = true;
+    } catch (error) {
+      console.error("초기 데이터 로드 실패:", error);
+    }
+  }
   console.log(`🚀 서버가 http://localhost:${PORT} 에서 실행 중`);
 });

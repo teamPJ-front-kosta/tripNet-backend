@@ -1,10 +1,12 @@
 const express = require("express");
 const router = express.Router();
+const fs = require("fs");
+const path = require("path");
 const { getCachedActivityData } = require("../02-service/amadeus");
 
 router.get("/", async (req, res) => {
   try {
-    // 캐시된 활동 데이터 사용
+    // JSON 파일에서 티켓 데이터 읽기
     const activities = getCachedActivityData();
     
     if (!activities || activities.length === 0) {
