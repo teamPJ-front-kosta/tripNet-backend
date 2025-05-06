@@ -82,18 +82,4 @@ router.get("/search-hotels/:cityCode/:checkInDate/:checkOutDate/:adults/:childre
     return res.json(hotelOffersResponse.data);
 });
 
-router.get("/hotel-details/:hotelId", async (req, res) => {
-    const { hotelId } = req.params;
-    const token = await amadeusService.getForeignAmadeusToken();
-    const response = await axios.get(
-        `https://test.api.amadeus.com/v3/shopping/hotel-offers/${hotelId}`,
-        {
-            headers: {
-                Authorization: `Bearer ${token}`,
-            },
-        }
-    );
-    return res.json(response.data);
-});
-
 module.exports = router;
