@@ -1,0 +1,135 @@
+{
+  "tickets": {
+    "tickets": [
+      {
+        "id": "6378972",
+        "name": "Master Korean Food with a Chef [live online class]",
+        "description": [
+          "API 기반 상세 설명이 부족해 더미 추가"
+        ],
+        "location": {
+          "name": "서울"
+        },
+        "rating": 4,
+        "reviewCount": 0,
+        "price": {
+          "amount": "15.0",
+          "currencyCode": "USD"
+        },
+        "pictures": [
+          "https://screen-api.vizeater.co/files/1428869/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1428867/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1428864/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1428866/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1428860/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1428868/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1428861/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1428865/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
+        ],
+        "bookingLink": true,
+        "options": [
+          {
+            "name": "성인 입장권",
+            "desc": "만 13세 이상",
+            "original": 30000,
+            "price": 22000
+          },
+          {
+            "name": "소인 입장권",
+            "desc": "36개월~12세",
+            "original": 20000,
+            "price": 15000
+          }
+        ],
+        "notice": [
+          "현장 상황에 따라 이용 가능",
+          "미사용시 환불 가능"
+        ],
+        "refund": [
+          "유효기간 내 환불 가능"
+        ],
+        "info": {
+          "location": "서울시 마포구",
+          "useTime": "10:00~18:00",
+          "useMethod": [
+            "QR코드 제시 후 입장"
+          ],
+          "extra": [
+            "주의사항 없음"
+          ],
+          "age": [
+            "성인: 만 13세 이상",
+            "소인: 36개월 이상 ~ 만 12세 이하"
+          ]
+        },
+        "reviews": [],
+        "related": []
+      },
+      {
+        "id": "6379398",
+        "name": "Korean local market food tour seasonal street food",
+        "description": [
+          "API 기반 상세 설명이 부족해 더미 추가"
+        ],
+        "location": {
+          "name": "서울"
+        },
+        "rating": 4,
+        "reviewCount": 0,
+        "price": {
+          "amount": "120.0",
+          "currencyCode": "USD"
+        },
+        "pictures": [
+          "https://screen-api.vizeater.co/files/1492211/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1490749/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1490753/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1490750/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1499607/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1490752/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1490748/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1490747/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+          "https://screen-api.vizeater.co/files/1490754/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
+        ],
+        "bookingLink": true,
+        "options": [
+          {
+            "name": "성인 입장권",
+            "desc": "만 13세 이상",
+            "original": 30000,
+            "price": 22000
+          },
+          {
+            "name": "소인 입장권",
+            "desc": "36개월~12세",
+            "original": 20000,
+            "price": 15000
+          }
+        ],
+        "notice": [
+          "현장 상황에 따라 이용 가능",
+          "미사용시 환불 가능"
+        ],
+        "refund": [
+          "유효기간 내 환불 가능"
+        ],
+        "info": {
+          "location": "서울시 마포구",
+          "useTime": "10:00~18:00",
+          "useMethod": [
+            "QR코드 제시 후 입장"
+          ],
+          "extra": [
+            "주의사항 없음"
+          ],
+          "age": [
+            "성인: 만 13세 이상",
+            "소인: 36개월 이상 ~ 만 12세 이하"
+          ]
+        },
+        "reviews": [],
+        "related": []
+      }
+    ]
+  }
+}

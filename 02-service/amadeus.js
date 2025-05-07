@@ -49,8 +49,27 @@ const fetchActivityData = async () => {
         currencyCode: activity.price.currencyCode
       },
       pictures: activity.pictures || [],
-      bookingLink: true
+      bookingLink: true,
+    
+      // ✅ 아래 필드를 추가해줘야 ticketDetail에서 오류 안 남
+      options: [
+        { name: '성인 입장권', desc: '만 13세 이상', original: 30000, price: 22000 },
+        { name: '소인 입장권', desc: '36개월~12세', original: 20000, price: 15000 }
+      ],
+      notice: ['현장 상황에 따라 이용 가능', '미사용시 환불 가능'],
+      description: ['API 기반 상세 설명이 부족해 더미 추가'],
+      refund: ['유효기간 내 환불 가능'],
+      info: {
+        location: '서울시 마포구',
+        useTime: '10:00~18:00',
+        useMethod: ['QR코드 제시 후 입장'],
+        extra: ['주의사항 없음'],
+        age: ['성인: 만 13세 이상', '소인: 36개월 이상 ~ 만 12세 이하']
+      },
+      reviews: [],
+      related: []
     }));
+    
 
     // JSON 파일에 데이터 저장
     const jsonFilePath = path.join(__dirname, "..", "04-json", "tickets.json");

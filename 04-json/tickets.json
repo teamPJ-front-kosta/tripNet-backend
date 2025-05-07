@@ -3,7 +3,9 @@
     {
       "id": "6378972",
       "name": "Master Korean Food with a Chef [live online class]",
-      "description": "What better way to explore a city than by discovering its cuisine first hand? Put on a chef's hat for the day and learn how to make classic dishes, local specialties and impressive plates with our expert hosts. Sign up for one of our fun, immersive cooking classes and discover a new hidden talent!<br><br>Welcome to Live Online Korean Master Chef Class!\nWe will make delicious Korean Traditional Food together!\n\nWe will share tips on various dishes, starting with how to prepare ingredients. And we will share the recipe to make perfect Korean food.\n\nWhat to expect\n• Learn how to cook famous Korean Food.\n• Korean Chef will demonstrate the process step-by-step and provide personalized cooking tips.\n• The menu changes periodically. Please check the schedule below.\n• This is an interactive workshop, so feel free to ask him/her/them questions throughout.\n\nWhat you need to know\n• This online experience is perfect for groups of friends, families, team-building events, and end of year office parties\n• you will receive a link to enter the call after booking\n• All ingredients and kitchen tools as well as preparations to be made the day before, I send you the Ingredients list a week before class.\n• Pricing per 1 person.\n\nAbout your host, Minseon:  Hi! I am Minseon and I’m a Korean food consultant, cookbook writer and CEO of OME Cooking Lab. (Instagram @omecookinglab)\nNow I'm bringing my tips for Korean Food. Let's make delicious Korean food together. At the moment when we cook together, we will feel like we are in Korea!\nLet's make special Korean food history together. :-)\n\n❤ The Best Menu \n\n❣ 19th ~ 25th April(KST)\nNapa Cabbage Kimchi & Bulgogi(Korean BBQ)\n\n❣ 26th April~ 2nd May(KST)\nBulgogi Bibimbap & Sundubu-jjigae(spicy soft tofu stew)\n\n❣ 3rd ~ 9th May(KST)\nYangnyeom Chicken(Spicy Korean Fried Chicken ) &\nCorn Cheese & Somaek(Soju and beer)\n\n❣ 10th ~ 16th May(KST)\nSamgyeopsal Gimbap(seaweed rice roll w/ pork belly BBQ) & Cheese Tteokbokki",
+      "description": [
+        "API 기반 상세 설명이 부족해 더미 추가"
+      ],
       "location": {
         "name": "서울"
       },
@@ -15,20 +17,59 @@
       },
       "pictures": [
         "https://screen-api.vizeater.co/files/1428861/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1428869/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1428867/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1428868/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1428860/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
         "https://screen-api.vizeater.co/files/1428864/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
         "https://screen-api.vizeater.co/files/1428865/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1428866/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
+        "https://screen-api.vizeater.co/files/1428860/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+        "https://screen-api.vizeater.co/files/1428869/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+        "https://screen-api.vizeater.co/files/1428867/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+        "https://screen-api.vizeater.co/files/1428866/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+        "https://screen-api.vizeater.co/files/1428868/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
       ],
-      "bookingLink": true
+      "bookingLink": true,
+      "options": [
+        {
+          "name": "성인 입장권",
+          "desc": "만 13세 이상",
+          "original": 30000,
+          "price": 22000
+        },
+        {
+          "name": "소인 입장권",
+          "desc": "36개월~12세",
+          "original": 20000,
+          "price": 15000
+        }
+      ],
+      "notice": [
+        "현장 상황에 따라 이용 가능",
+        "미사용시 환불 가능"
+      ],
+      "refund": [
+        "유효기간 내 환불 가능"
+      ],
+      "info": {
+        "location": "서울시 마포구",
+        "useTime": "10:00~18:00",
+        "useMethod": [
+          "QR코드 제시 후 입장"
+        ],
+        "extra": [
+          "주의사항 없음"
+        ],
+        "age": [
+          "성인: 만 13세 이상",
+          "소인: 36개월 이상 ~ 만 12세 이하"
+        ]
+      },
+      "reviews": [],
+      "related": []
     },
     {
       "id": "6379398",
       "name": "Korean local market food tour seasonal street food",
-      "description": "Discover a different side to a city on an immersive food walk and market tours. Our local hosts will show you all their favorite places to eat, drink and have fun!<br><br>1. Warm up with local market street food \n2. Enjoy fresh lunch in market.\n3. Look around in shopping mall.\n4. Trendy cafe\nBetween eating times, you can see local view, learning basic Korean How ro order, 'Thank you' with me!",
+      "description": [
+        "API 기반 상세 설명이 부족해 더미 추가"
+      ],
       "location": {
         "name": "서울"
       },
@@ -39,17 +80,54 @@
         "currencyCode": "USD"
       },
       "pictures": [
-        "https://screen-api.vizeater.co/files/1490750/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+        "https://screen-api.vizeater.co/files/1490753/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+        "https://screen-api.vizeater.co/files/1490754/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+        "https://screen-api.vizeater.co/files/1490752/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
         "https://screen-api.vizeater.co/files/1492211/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
         "https://screen-api.vizeater.co/files/1499607/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1490749/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1490754/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1490753/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1490752/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+        "https://screen-api.vizeater.co/files/1490747/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
         "https://screen-api.vizeater.co/files/1490748/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
-        "https://screen-api.vizeater.co/files/1490747/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
+        "https://screen-api.vizeater.co/files/1490750/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+        "https://screen-api.vizeater.co/files/1490749/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
       ],
-      "bookingLink": true
+      "bookingLink": true,
+      "options": [
+        {
+          "name": "성인 입장권",
+          "desc": "만 13세 이상",
+          "original": 30000,
+          "price": 22000
+        },
+        {
+          "name": "소인 입장권",
+          "desc": "36개월~12세",
+          "original": 20000,
+          "price": 15000
+        }
+      ],
+      "notice": [
+        "현장 상황에 따라 이용 가능",
+        "미사용시 환불 가능"
+      ],
+      "refund": [
+        "유효기간 내 환불 가능"
+      ],
+      "info": {
+        "location": "서울시 마포구",
+        "useTime": "10:00~18:00",
+        "useMethod": [
+          "QR코드 제시 후 입장"
+        ],
+        "extra": [
+          "주의사항 없음"
+        ],
+        "age": [
+          "성인: 만 13세 이상",
+          "소인: 36개월 이상 ~ 만 12세 이하"
+        ]
+      },
+      "reviews": [],
+      "related": []
     }
   ]
 }
