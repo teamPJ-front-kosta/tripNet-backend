@@ -16,8 +16,8 @@ const cityImageMapping = {
   ],
   BKK: [
     "https://i0.wp.com/www.agoda.com/wp-content/uploads/2019/10/The-Berkeley-Hotel-Pratunam-hotels-in-Bangkok-Thailand.jpg?ssl=1",
-    "https://i0.wp.com/www.agoda.com/wp-content/uploads/2019/10/Dream-Hotel-Bangkok-featured-photo.jpg?ssl=1",
-    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/93/76/5c/eastin-grand-hotel-sathorn.jpg?w=1200&h=-1&s=1",
+    "https://i0.wp.com/www.agoda.com/wp-content/uploads/2019/10/Dream-Hotel-Bangkok-featured-photo.jpg?ssl=1&resize=1600%2C900&quality=100",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/93/76/5c/eastin-grand-hotel-sathorn.jpg?w=2400&h=-1&s=1",
   ],
   HNL: [
     "https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/wlQ/image/5PmRYIzoSRa6DBvPkKLxW4N6g8k.png",

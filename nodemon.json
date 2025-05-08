@@ -1,0 +1,3 @@
+{
+  "ignore": ["04-json/*.json", "04-json/**/*.json"]
+}
