@@ -9731,6 +9731,1156 @@
     ]
   },
   {
+    "cityCode": "PUS",
+    "hotels": [
+      {
+        "hotelId": "BWPUS001",
+        "hotelName": "SIGNIEL BUSAN",
+        "latitude": 35.1587,
+        "longitude": 129.1604,
+        "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/03/26/SCT8/7bS8lFBowh.jpg?width=1080&quality=90",
+        "offers": [
+          {
+            "id": "STA101",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://pix8.agoda.net/hotelImages/9079659/862939259/041a6473697ea8ab1bcbf895fae6fd9c.jpg?ce=0&s=1000x"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "STA102",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://yaimg.yanolja.com/v5/2023/02/14/14/63eb9c70232d29.78873141.jpg"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "STA103",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://q-xx.bstatic.com/xdata/images/hotel/max500/629574771.jpg?k=28af0360d2e7862da87d1f41253d7dd93b59d344968142b898dfe5c47a4976c1&o=&s=1000x"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "hotelId": "BWPUS002",
+        "hotelName": "PARK HYATT BUSAN",
+        "latitude": 35.155,
+        "longitude": 129.1489,
+        "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/12/06/CxBS/79EqAgHjpl.jpg?width=1080&quality=90",
+        "offers": [
+          {
+            "id": "DEL201",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://pix8.agoda.net/hotelImages/16933389/-1/aaba0bc319b64912911a31693bcbea3a.jpg?ca=17&ce=1&s=1000x"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL202",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://pix8.agoda.net/hotelImages/16933389/649274911/9a391dc80a143bc39b0d575b8356d483.jpg?ce=0&s=1000x"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL203",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://pix8.agoda.net/hotelImages/16933389/-1/b0e474f13e12a72597dfc1ccb36b4adf.jpg?ca=17&ce=1&s=1000x"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "hotelId": "BWPUS003",
+        "hotelName": "HILTON BUSAN",
+        "latitude": 35.19,
+        "longitude": 129.223,
+        "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/11/21/qwBH/GtShcpNKqM.jpg?width=1080&quality=90",
+        "offers": [
+          {
+            "id": "DEL301",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://yaimg.yanolja.com/v5/2024/01/30/15/65b91816425602.54981635.jpg"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL302",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://yaimg.yanolja.com/v5/2025/04/18/08/68020c1c4a41f2.00089182.jpg"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL303",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://yaimg.yanolja.com/v5/2024/01/30/15/65b91824263d83.66895938.jpg"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "hotelId": "BWPUS004",
+        "hotelName": "AVANI CENTRAL BUSAN",
+        "latitude": 35.1531,
+        "longitude": 129.0601,
+        "imageUrl": "https://yaimg.yanolja.com/v5/2024/01/30/15/65b91824263d83.66895938.jpg",
+        "offers": [
+          {
+            "id": "DEL401",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/11/30/tjHT/GCHDeUyVHi.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL402",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/11/30/2506/uxi7d1vxq8.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL403",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://yaimg.yanolja.com/v5/2024/11/19/03/673c045d084e29.90424878.jpg"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "hotelId": "BWPUS005",
+        "hotelName": "LOTTE HOTEL BUSAN",
+        "latitude": 35.1572,
+        "longitude": 129.06,
+        "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/19/naHy/uKl09AXXm0.jpg?width=1080&quality=90",
+        "offers": [
+          {
+            "id": "DEL501",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/16/Jz4c/aO8uU7FAgX.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL502",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/12/02/LciU/ETTzpqFmgD.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL503",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/12/02/Jnbm/BT5wCO7w6n.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cityCode": "CJU",
+    "hotels": [
+      {
+        "hotelId": "BWJEJ001",
+        "hotelName": "GRAND HYATT JEJU",
+        "latitude": 33.5133,
+        "longitude": 126.4929,
+        "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/03/TxOn/Fw13HpsXsQ.jpg?width=1080&quality=90",
+        "offers": [
+          {
+            "id": "STA101",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/12/11/v067/zNzGdZt76A.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "STA102",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/12/11/v067/zNzGdZt76A.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "STA103",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/12/11/v067/zNzGdZt76A.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "hotelId": "BWJEJ002",
+        "hotelName": "LOTTE HOTEL JEJU",
+        "latitude": 33.2474,
+        "longitude": 126.4142,
+        "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/03/18/H071/ehlEMbxbjW.jpg?width=1080&quality=90",
+        "offers": [
+          {
+            "id": "DEL201",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/12/15/XOZB/TCHQsQSW8M.JPG?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL202",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/12/15/XOZB/TCHQsQSW8M.JPG?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL203",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/12/15/XOZB/TCHQsQSW8M.JPG?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "hotelId": "BWJEJ003",
+        "hotelName": "THE SHILLA JEJU",
+        "latitude": 33.2461,
+        "longitude": 126.421,
+        "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/12/15/XOZB/TCHQsQSW8M.JPG?width=720&quality=90",
+        "offers": [
+          {
+            "id": "DEL301",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/11/03/Ropi/7dlZjpUrAe.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL302",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/11/03/Ropi/7dlZjpUrAe.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL303",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2023/11/03/Ropi/7dlZjpUrAe.jpg?width=720&quality=90"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "hotelId": "BWJEJ004",
+        "hotelName": "RAMADA PLAZA JEJU",
+        "latitude": 33.5141,
+        "longitude": 126.5297,
+        "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/03/MtVq/XIQDjxtPyL.jpg?width=1080&quality=90",
+        "offers": [
+          {
+            "id": "DEL401",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://pix8.agoda.net/hotelImages/2818235/17157969/26f85a3cb8c9234deb7c7eb2cd98d5e3.jpeg?ce=0&s=1000x"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL402",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://pix8.agoda.net/hotelImages/2818235/17157969/26f85a3cb8c9234deb7c7eb2cd98d5e3.jpeg?ce=0&s=1000x"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL403",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://pix8.agoda.net/hotelImages/2818235/17157969/26f85a3cb8c9234deb7c7eb2cd98d5e3.jpeg?ce=0&s=1000x"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "hotelId": "BWJEJ005",
+        "hotelName": "MAISON GLAD JEJU",
+        "latitude": 33.4877,
+        "longitude": 126.492,
+        "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/03/bqGt/XLfPOnQY51.jpg?width=1080&quality=90",
+        "offers": [
+          {
+            "id": "DEL501",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "STANDARD",
+              "typeEstimated": {
+                "category": "STANDARD_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "STANDARD room with basic amenities",
+                "lang": "EN"
+              },
+              "imageUrl": "https://yaimg.yanolja.com/v5/2025/02/28/06/67c15dbe2c22e6.23907194.jpg"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "150",
+              "total": "170"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL502",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "DELUXE",
+              "typeEstimated": {
+                "category": "DELUXE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "DELUXE room with ocean view",
+                "lang": "EN"
+              },
+              "imageUrl": "https://yaimg.yanolja.com/v5/2025/02/28/06/67c15dbe2c22e6.23907194.jpg"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "210",
+              "total": "230"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          },
+          {
+            "id": "DEL503",
+            "checkInDate": "2025-05-06",
+            "checkOutDate": "2025-05-07",
+            "room": {
+              "type": "EXECUTIVE",
+              "typeEstimated": {
+                "category": "EXECUTIVE_ROOM",
+                "beds": 1,
+                "bedType": "DOUBLE"
+              },
+              "description": {
+                "text": "EXECUTIVE room with lounge access",
+                "lang": "EN"
+              },
+              "imageUrl": "https://yaimg.yanolja.com/v5/2025/02/28/06/67c15dbe2c22e6.23907194.jpg"
+            },
+            "guests": {
+              "adults": 1
+            },
+            "price": {
+              "currency": "USD",
+              "base": "280",
+              "total": "305"
+            },
+            "policies": {
+              "paymentType": "deposit",
+              "cancellation": {
+                "description": {
+                  "text": "NON-REFUNDABLE RATE"
+                },
+                "type": "FULL_STAY"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cityCode": "SEL",
     "hotels": [
       {
