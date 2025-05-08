@@ -3,7 +3,8 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
-const foreignAccommodationRouter = require("./01-routes/foreignAccommodation");
+// 사용 중인 라우터만 import
+const foreignHotelListRouter = require("./01-routes/foreignHotelListRouter");
 const domesticAccommodationRouter = require("./01-routes/domesticAccommodation");
 const ticketsRouter = require("./01-routes/tickets");
 const { fetchActivityData } = require("./02-service/amadeus");
@@ -13,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 
 // CORS 설정
 const corsOptions = {
-  origin: 'http://localhost:3000', // React 앱 주소
+  origin: 'http://localhost:3000',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
@@ -22,12 +23,12 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
-// ✅ 라우터 연결
-app.use("/api/foreign-accommodations", foreignAccommodationRouter);
-app.use("/api/domestic-accommodations", domesticAccommodationRouter);
-app.use("/api/tickets", ticketsRouter);
+// ✅ 실제 사용 중인 라우터만 연결
+app.use("/api/foreign-accommodations", foreignHotelListRouter); // 해외 숙소 리스트
+app.use("/api/domestic-accommodations", domesticAccommodationRouter); // 국내 숙소 리스트
+app.use("/api/tickets", ticketsRouter); // 티켓/투어 상품
 
-// ✅ 서버 상태 확인 API
+// 서버 상태 확인 API
 app.get("/", (req, res) => {
   res.json({ message: "서버 정상 작동 중" });
 });
